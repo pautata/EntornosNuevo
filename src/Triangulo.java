@@ -19,6 +19,7 @@ public class Triangulo {
 
     public static double calcularArea(int lado1, int lado2) {
         double area = 0.5 * lado1 * lado2;
+        int i = 0;
         return area;
     }
 }
