@@ -13,6 +13,7 @@ public class Triangulo {
         double areaTriangulo = calcularAreaTriangulo(base, altura);
         System.out.println("El área del triángulo es: " + areaTriangulo);
 
+        scanner.close();
     }
 
     public static double calcularAreaTriangulo(int base, int altura) {
